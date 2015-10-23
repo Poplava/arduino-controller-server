@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div style="padding: 20px; text-align: center;">
+    <button id="clickMe">Click me</button>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    $('#clickMe').on('click', function() {
+        $.get('/send');
+    });
+</script>
+</body>
+</html>
